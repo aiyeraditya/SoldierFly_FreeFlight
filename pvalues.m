@@ -12,24 +12,6 @@
 [h,p] = ranksum(Left_WPSL.up_P2P_mean, control_WPSL.up_P2P_mean)
 
 
-
-%dP2P
-[h,p] = ranksum(Right_WPSR.down_P2P_mean, Right_WPSL.down_P2P_mean)
-[h,p] = ranksum(Left_WPSR.down_P2P_mean, Left_WPSL.down_P2P_mean)
-[h,p] = ranksum(control_WPSR.down_P2P_mean, control_WPSL.down_P2P_mean)
-
-
-[h,p] = ranksum(Right_WPSR.down_P2P_mean, Left_WPSR.down_P2P_mean)
-[h,p] = ranksum(Right_WPSR.down_P2P_mean, control_WPSR.down_P2P_mean)
-[h,p] = ranksum(Left_WPSR.down_P2P_mean, control_WPSR.down_P2P_mean)
-
-[h,p] = ranksum(Right_WPSL.down_P2P_mean, Left_WPSL.down_P2P_mean)
-[h,p] = ranksum(Right_WPSL.down_P2P_mean, control_WPSL.down_P2P_mean)
-[h,p] = ranksum(Left_WPSL.down_P2P_mean, control_WPSL.down_P2P_mean)
-
-
-
-
 %Dorsal_Excursion
 [h,p] = ranksum(Right_WPSR.dorsal_excursion_mean, Right_WPSL.dorsal_excursion_mean)
 [h,p] = ranksum(Left_WPSR.dorsal_excursion_mean, Left_WPSL.dorsal_excursion_mean)
@@ -75,22 +57,6 @@
 [h,p] = ranksum(Right_WPDL.up_P2P_mean, Left_WPDL.up_P2P_mean)
 [h,p] = ranksum(Right_WPDL.up_P2P_mean, control_WPDL.up_P2P_mean)
 [h,p] = ranksum(Left_WPDL.up_P2P_mean, control_WPDL.up_P2P_mean)
-
-
-
-%dP2P
-[h,p] = ranksum(Right_WPDR.down_P2P_mean, Right_WPDL.down_P2P_mean)
-[h,p] = ranksum(Left_WPDR.down_P2P_mean, Left_WPDL.down_P2P_mean)
-[h,p] = ranksum(control_WPDR.down_P2P_mean, control_WPDL.down_P2P_mean)
-
-
-[h,p] = ranksum(Right_WPDR.down_P2P_mean, Left_WPDR.down_P2P_mean)
-[h,p] = ranksum(Right_WPDR.down_P2P_mean, control_WPDR.down_P2P_mean)
-[h,p] = ranksum(Left_WPDR.down_P2P_mean, control_WPDR.down_P2P_mean)
-
-[h,p] = ranksum(Right_WPDL.down_P2P_mean, Left_WPDL.down_P2P_mean)
-[h,p] = ranksum(Right_WPDL.down_P2P_mean, control_WPDL.down_P2P_mean)
-[h,p] = ranksum(Left_WPDL.down_P2P_mean, control_WPDL.down_P2P_mean)
 
 
 

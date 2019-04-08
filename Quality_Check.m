@@ -17,7 +17,7 @@ function [error_right, error_left] = Quality_Check(data, name)
     title('Right Wing Length Variation: Error-> ' + string(error_right))
     ylabel('Right Wing Length (m)')
     xlabel('Frame Number')
-    savnam = string(name) + 'right_variation.eps';
+    savnam = 'Each_Fly_Plot/' + string(name) + 'right_variation.eps';
     saveas(f,savnam)
     
     r = data(:, 7:9) - data(:, 13:15);
@@ -30,6 +30,6 @@ function [error_right, error_left] = Quality_Check(data, name)
     title('Left Wing Length Variation: Error-> ' + string(error_left))
     ylabel('Left Wing Length (m)')
     xlabel('Frame Number')
-    savnam = string(name) + 'left_variation.eps';
+    savnam = 'Each_Fly_Plot/' + string(name) + 'left_variation.eps';
     saveas(f,savnam)
 end

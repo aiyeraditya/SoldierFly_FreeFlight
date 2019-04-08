@@ -1,4 +1,4 @@
-function [wingAngles, ypr] = calculatestrokeangle(xyz)
+function wingAngles = calculatestrokeangle(xyz)
 % 
 % Original code by Ty Hedrick
 % Modified by Dinesh Natesan, 12th Oct 2015
